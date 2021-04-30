@@ -1,0 +1,6 @@
+li {
+  list-style: none;
+  display: inline-flex;
+  padding: 10px;
+  font-weight: bold;
+}

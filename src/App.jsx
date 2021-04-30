@@ -1,18 +1,15 @@
 import './App.css'
 import React from 'react'
-import Header from './components/Header'
-import Card from './components/layout/Card'
-import Body from './components/Body'
-import Footer from './components/Footer'
-
+import Header from './components/header/Header'
+import Body from './components/body/Body'
+import About from './components/about/About'
+import Blog from './components/blog/Blog'
 
 export default () => (
   <div className="App">    
-    <Card>
       <Header />
       <Body />
-      <Footer />
-    </Card>
+      <About />
+      <Blog />
   </div>
 );
-

@@ -1,10 +1,9 @@
 import React from 'react'
-import Profile from '../images/profile.jpg'
+import './About.css'
 
-
-export default () => 
-  <div>
-    <img src={Profile} width="250" height="250"></img>
+const About = () => {
+  return (
+<div>
     <h2>About Me</h2>
       <p>
         As a QA engineer, I believe that technology can help us in many aspects, from ordering food to buying stocks in the financial market. Because of that, it’s our responsibility to ensure that people using the technology have good experiences.
@@ -22,3 +21,7 @@ export default () =>
         Last but not least, I’m experienced with SCRUM and Kanban methodologies. 
       </p>
   </div>
+  )  
+}
+
+export default About

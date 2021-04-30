@@ -1,7 +1,9 @@
 import React from 'react'
+import './Blog.css'
 
-export default () => 
-  <div>
+const Blog = () => {
+  return(
+<div>
     <h2>Latest on blog</h2>
       <h3>teste-cypress</h3>
         <p>
@@ -20,3 +22,7 @@ export default () =>
       Framework of automated tests with JUnit, Java, and Maven
       </p>
   </div>
+  )
+}
+
+export default Blog

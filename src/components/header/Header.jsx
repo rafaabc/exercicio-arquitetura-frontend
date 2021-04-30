@@ -1,6 +1,8 @@
 import React from 'react'
+import './Header.css'
 
-export default () => 
+const Header = () => {
+  return (
   <div>  
       <ul>
         <li>Blog</li>
@@ -8,3 +10,6 @@ export default () =>
         <li>Description</li>
       </ul>  
   </div>
+  )
+}
+export default Header
